@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  display: flex;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 24px;
+  gap: 16px;
+  width: 400px;
+  margin-top: 24px;
+}
+
+.container:hover {
+  background-color: rgba(15, 27, 53, 0.8);
+  cursor: pointer;
+}
+
+.container:hover:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: #0256c9;
+}
+
+.mainText {
+  font-size: 24px;
+  font-weight: 700;
+}
