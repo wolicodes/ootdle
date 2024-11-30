@@ -1,11 +1,10 @@
 import classes from "./App.module.css";
 import GameButton from "./components/GameButton";
-import Title from "./components/Title";
 
 function App() {
   return (
     <div className={classes.content}>
-      <Title />
+      <h1 className={classes.title}>Ootdle</h1>
       <div className={classes.instructions}>
         Guess Ocarina of Time characters
       </div>

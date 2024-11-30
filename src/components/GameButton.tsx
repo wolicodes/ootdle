@@ -10,9 +10,7 @@ interface Props {
 const GameButton: React.FC<Props> = ({ image, mainText, description }) => {
   return (
     <div className={classes.container}>
-      <div style={{ width: "50px" }}>
-        <img src={image} />
-      </div>
+      <img src={image} className={classes.icon} alt={mainText} />
       <div>
         <div className={classes.mainText}>{mainText}</div>
         <div>{description}</div>
