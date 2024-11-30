@@ -21,7 +21,7 @@ body::before {
     0,
     0,
     0,
-    0.7
+    0.6
   ); /* Adjust opacity with the alpha value (0.5 here) */
   pointer-events: none;
   width: 100vw;
