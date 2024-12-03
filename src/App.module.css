@@ -8,23 +8,17 @@
   font-family: "Triforce";
   font-size: 80px;
   letter-spacing: 3px;
-  color: #f10430;
-  text-shadow: 0 0 10px #f10430;
-}
-
-.instructions {
-  margin-top: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: 2px solid #978345;
-  padding: 6px 12px;
-  background-color: rgba(176, 155, 88, 0.3);
-  border-radius: 8px;
-  font-size: 14px;
+  color: var(--hylian-red);
+  text-shadow: 0 0 10px var(--hylian-red);
+  cursor: pointer;
 }
 
 .footer {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
-  margin-top: 24px;
+  margin-top: 36px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 8px 16px;
 }
