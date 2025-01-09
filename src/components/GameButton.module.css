@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   border-radius: 16px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 24px;
   gap: 24px;
   width: 400px;
@@ -10,7 +10,7 @@
 }
 
 .container:hover {
-  background-color: rgba(15, 27, 53, 0.8);
+  background-color: rgba(15, 27, 53, 0.9);
   cursor: pointer;
 }
 
