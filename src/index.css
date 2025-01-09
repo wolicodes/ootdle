@@ -5,24 +5,13 @@
 
 body {
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
   background: url("./assets/bg.jpg") no-repeat fixed center/cover;
-  position: relative;
 }
 
 body::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(
-    0,
-    0,
-    0,
-    0.6
-  ); /* Adjust opacity with the alpha value (0.5 here) */
+  background: rgba(0, 0, 0, 0.6);
   pointer-events: none;
   width: 100vw;
   height: 100vh;
