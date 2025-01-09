@@ -1,16 +1,27 @@
 import React from "react";
 import classes from "./GameButton.module.css";
+import { ReactSVG } from "../types";
 
 interface Props {
-  image: string;
+  Icon: ReactSVG;
+  iconSize?: number;
+  iconColor?: string;
   mainText: string;
   description: string;
+  onClick: () => void;
 }
 
-const GameButton: React.FC<Props> = ({ image, mainText, description }) => {
+const GameButton: React.FC<Props> = ({
+  Icon,
+  iconSize = 50,
+  iconColor,
+  mainText,
+  description,
+  onClick,
+}) => {
   return (
-    <div className={classes.container}>
-      <img src={image} className={classes.icon} alt={mainText} />
+    <div className={classes.container} onClick={onClick}>
+      <Icon width={iconSize} fill={iconColor} />
       <div>
         <div className={classes.mainText}>{mainText}</div>
         <div>{description}</div>

@@ -3,9 +3,25 @@
   src: url("./assets/Triforce.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "ocarina";
+  src: url("./assets/ocarina.otf") format("opentype");
+}
+
+:root {
+  --hylian-red: rgb(255, 50, 50);
+  --hylian-blue: rgb(80, 90, 255);
+  --hylian-light-blue1: rgb(80, 150, 255);
+  --hylian-light-blue2: rgb(100, 180, 255);
+  --hylian-purple: rgb(255, 150, 180);
+  --hylian-yellow: rgb(255, 255, 50);
+  --hylian-gold: #f1a100;
+}
+
 body {
   color: rgba(255, 255, 255, 0.87);
   background: url("./assets/bg.jpg") no-repeat fixed center/cover;
+  font-family: "ocarina";
 }
 
 body::before {
@@ -15,4 +31,13 @@ body::before {
   pointer-events: none;
   width: 100vw;
   height: 100vh;
+}
+
+a {
+  color: var(--hylian-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

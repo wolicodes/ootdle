@@ -1,0 +1,21 @@
+.navContainer {
+  display: flex;
+  gap: 42px;
+}
+
+.navSubContainer {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.currentCategoryIcon {
+  fill: goldenrod;
+  /* filter: drop-shadow(0 0 10px goldenrod); */
+}
+
+.otherCategoryIcon {
+  fill: white;
+  cursor: pointer;
+}
