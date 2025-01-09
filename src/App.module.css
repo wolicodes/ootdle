@@ -4,10 +4,23 @@
   align-items: center;
 }
 
+.title {
+  font-family: "Triforce";
+  font-size: 80px;
+  letter-spacing: 3px;
+  color: #f10430;
+  text-shadow: 0 0 10px #f10430;
+}
+
 .instructions {
   margin-top: 32px;
   font-weight: 700;
   text-transform: uppercase;
+  border: 2px solid #978345;
+  padding: 6px 12px;
+  background-color: rgba(176, 155, 88, 0.3);
+  border-radius: 8px;
+  font-size: 14px;
 }
 
 .footer {
